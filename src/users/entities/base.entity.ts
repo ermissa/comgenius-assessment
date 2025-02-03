@@ -7,7 +7,7 @@ import {
 
 export class BaseEntity {
   @PrimaryGeneratedColumn()
-  id: string;
+  id!: number;
 
   @CreateDateColumn({ type: 'datetime' })
   readonly createdAt!: Date;
