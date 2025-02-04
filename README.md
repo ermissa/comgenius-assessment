@@ -99,3 +99,9 @@ src/
     ├── entities/      # Database entities
     └── tests/         # Test files
 ```
+
+## Deployment
+
+This application is deployed and running on fly.io.
+
+- URL: https://comgenius-assessment.fly.dev/
